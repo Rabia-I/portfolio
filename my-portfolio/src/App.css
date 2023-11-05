@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+:root{
+--primary-white: #fff;
+--primary-grey: #b9b7b2;
+--primary-dark: rgba(255,255,255,0);
+
+}
+
+body{
+  font-family: "Roboto Condesed" sans-serif;
+}
+
+/****************************NAVBAR****************/
+
+.logo{
+  width: 5rem;
+}
+
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+  
+}
+.navbar-nav > li > a {
+  margin-right: 0.7rem;
+    margin-left: 0.7rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+nav ul.ml-auto {
+  margin-left: auto !important;
+}
+.navbar-brand{
+  max-width: 17.27rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid var(--primary-grey);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-grey);
+}
+
+.navbar-toggler{
+  color: #fff !important;
+}
